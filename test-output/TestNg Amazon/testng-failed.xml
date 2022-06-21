@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [TestNg Amazon]">
+  <test thread-count="5" parallel="tests" name="TestNG(failed)">
+    <classes>
+      <class name="testLayer.SignupPage">
+        <methods>
+          <include name="Signup4"/>
+          <include name="close"/>
+          <include name="Signup7"/>
+          <include name="Signup5"/>
+          <include name="initsetup"/>
+          <include name="Signup3"/>
+          <include name="Signup1"/>
+          <include name="Signup8"/>
+          <include name="Signup6"/>
+          <include name="Signup9"/>
+        </methods>
+      </class> <!-- testLayer.SignupPage -->
+      <class name="testLayer.LoginSecurityTest">
+        <methods>
+          <include name="driveclose"/>
+          <include name="loginSec"/>
+          <include name="initsetup"/>
+        </methods>
+      </class> <!-- testLayer.LoginSecurityTest -->
+      <class name="testLayer.LoginPage">
+        <methods>
+          <include name="login4"/>
+          <include name="initsetup"/>
+        </methods>
+      </class> <!-- testLayer.LoginPage -->
+    </classes>
+  </test> <!-- TestNG(failed) -->
+</suite> <!-- Failed suite [TestNg Amazon] -->
